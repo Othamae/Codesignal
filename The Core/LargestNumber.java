@@ -1,8 +1,3 @@
 int solution(int n) {
-    String s = "";
-    while (n>0){
-        s+="9";
-        n--;
-    }    
-    return Integer.parseInt(s);
+    return (int)Math.pow(10, n)-1 ;    
 }
